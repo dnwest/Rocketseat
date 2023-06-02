@@ -1,0 +1,21 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10rem;
+}
+
+.logoTo{
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-left: 0.5rem;
+}
+
+.logoDo{
+  color: var(--purple-dark);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
