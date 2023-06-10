@@ -1,0 +1,48 @@
+.newTasks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1.5rem;
+    gap: 10px;
+}
+
+.tasks {
+    background: var(--gray-500);
+    border: 2px solid;
+    border-color: var(--gray-500);
+    color: var(--gray-100);
+    width: 28rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.buttonNewTasks{
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: 700;
+    border: 0;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.buttonNewTasks:hover {
+    background: var(--blue);
+    transition: 0.6s;
+}
+
+input, button {
+    outline: transparent;
+}
+
+input:focus{
+    border: 2px solid;
+    border-color: var(--purple-dark);
+    transition: 0.6s;
+}
