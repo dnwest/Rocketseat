@@ -1,3 +1,26 @@
-article {
- width: 34.5rem;
+.info{
+  display: none;
+}
+
+.ListTasks {
+  /* display: none; */
+  font-size: 0.875rem;
+}
+
+section > img {
+  padding-top: 40px;
+}
+
+.boxRadio {
+  display: flex;
+  padding: 10px;
+  background: var(--gray-500);
+  border-radius: 8px;
+  height: 4.5rem;
+  gap:10px;
+  align-items: center;
+}
+
+.boxRadio > input {
+  margin-top: -16px;
 }

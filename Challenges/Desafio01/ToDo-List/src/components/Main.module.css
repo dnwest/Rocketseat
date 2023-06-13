@@ -1,45 +1,8 @@
-main{
-  margin-top: 64px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-section {
- display: flex;
- flex-direction: column;
- align-items: center;
- border-top: 1.5px solid;
- border-radius: 8px;
- border-color: var(--gray-400);
- width: 34.5rem;
- margin-top: 24px;
- padding: 64px 24px;
-}
-
-section > p {
-  margin-top: 16px;
-  color: var(--gray-300);
-}
-
-.info{
-  display: none;
-}
-
-span {
-  background: var(--gray-400);
-  color: var(--gray-200);
-  padding: 1px 8px;
-  border-radius: 999px;
-}
-
 .boxInfoTasks {
 display: flex;
 justify-content: space-between;
 font-size: 0.9rem;
 width: 34.5rem;
-
 }
 
 .tasksCreated {

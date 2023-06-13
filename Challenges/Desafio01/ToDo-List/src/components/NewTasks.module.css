@@ -1,9 +1,8 @@
 .newTasks {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: -1.5rem;
     gap: 10px;
+    margin-top: -1.5rem;
 }
 
 .tasks {
@@ -34,7 +33,7 @@
 
 .buttonNewTasks:hover {
     background: var(--blue);
-    transition: 0.6s;
+    transition: 0.7s;
 }
 
 input, button {
