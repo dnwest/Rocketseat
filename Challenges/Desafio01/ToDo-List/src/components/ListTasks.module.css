@@ -21,6 +21,16 @@ section > img {
   align-items: center;
 }
 
-.boxRadio > input {
+label > input {
   margin-top: -16px;
+  line-height: 0;
+  border: 2px var(--blue) solid;
+  height: 1rem;
+  width: 1rem;
+  outline: transparent;
+}
+
+.boxRadio > img {
+  margin-top: -16px;
+  line-height: 0;
 }

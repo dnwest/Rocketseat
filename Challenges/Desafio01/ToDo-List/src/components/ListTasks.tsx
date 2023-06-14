@@ -12,8 +12,8 @@ export function ListTasks() {
       </section>
       <section className={styles.ListTasks}>
         <div className={styles.boxRadio}>
-        <input type='radio' />
-        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.
+        <label><input type='checkbox' />
+        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</label>
         <img src={trash} />
         </div>
       </section>
