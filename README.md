@@ -1,2 +1,5 @@
 # Rocketseat
-## ESTUDOS
+
+Repository with challenges, events and reviews.
+Technologies:
+- 
