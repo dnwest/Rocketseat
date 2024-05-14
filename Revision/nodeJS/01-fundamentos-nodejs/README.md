@@ -14,3 +14,8 @@
 - DELETE  => Deletar um recurso do back-end
 
 ### Stateful - Stateless
+
+- Stateful
+> Salva as informações na memória
+
+### Status Code
