@@ -3,7 +3,7 @@
 /* process.stdin
  .pipe (process.stdout) */
 
- import { Readable } from 'node:stream'
+ import { Readable, Writable, Transform } from 'node:stream'
 
  class OneToHundredStream extends Readable {
     index = 1
@@ -22,5 +22,20 @@
     }
  }
 
+ class InverseNumberSteam extends Transform {
+    _transform(chuck, encoding, callback) {
+        const transformed = Number(chuck.toString()) * -1
+callback(null, Buffer.from(String(transformed)))
+    }
+ }
+
+ class MultiplyBytenStream extends Writable {
+    _write(chunk, encoding, callback){
+        console.log(Number(chunk.toString()) * 10)
+        callback()
+    }
+ }
+
  new OneToHundredStream()
- .pipe(process.stdout)
+ .pipe(new InverseNumberSteam())
+ .pipe(new MultiplyBytenStream())
