@@ -14,7 +14,7 @@ for await (const chuck of req) {
 }
 
 try{
-    const req.body = JSON.parse(Buffer.concat(buffers).toString())
+     req.body = JSON.parse(Buffer.concat(buffers).toString())
 }catch{
     req.body = null
 }
